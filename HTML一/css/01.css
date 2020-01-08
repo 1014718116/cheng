@@ -1,0 +1,296 @@
+/*版心*/
+.w {
+	width: 980px;
+	margin: 0 auto;
+}
+.clearfix:before,.clearfix:after { 
+    content:"";
+    display:table;   
+}
+.clearfix:after {
+    clear:both;
+}
+.clearfix {
+    *zoom:1;
+}
+h4,
+input,
+button,
+ul,
+ol,
+li,
+p {
+    padding: 0;
+    margin: 0;
+}
+li {
+	list-style: none;
+}
+/*header start*/
+.header ul {
+	float: right;
+	margin-top: 10px;
+	padding: 0;
+	margin: 0;
+	
+}
+.header li {
+	list-style: none;
+	float: left;
+	text-align: center;
+	line-height: 40px;
+	font-size: 12px;
+	margin: 5px;
+} 
+.header .string {
+	width: 1px;
+	height: 13px;
+	margin-top: 20px;
+	background-color: black;
+}
+.header ul img {
+	height: auto;
+	width: 80px;
+	vertical-align: middle;
+}
+/*header end*/
+
+/*serch start*/
+.serch-l {
+	float: left;
+    padding-top: 4px;
+}
+.serch-r {
+	float: right;
+}
+.serch-r input {
+	width: 234px;
+	height: 22px;
+	border: 1px solid #ccc;
+	outline: none;
+	float: left;
+}
+.serch-r button {
+	width: 40px;
+	height: 24px;
+	background-color: #20a2f0;
+	outline: none;
+	float: left;
+	border: none;
+	cursor: pointer;
+}
+/*serch end*/
+
+
+/*main start*/
+.main {
+	margin-top: 20px;
+	margin-bottom: 15px;
+}
+.main-left {
+	width: 702px;
+	height: 660px;
+	float: left;
+}
+.im {
+	width: 702px;
+	height: 150px;
+}
+/*nav导航栏部分*/
+.nav {
+	width: 702px;
+	margin-top: 18px;
+
+	background-color: red;
+}
+.nav li {
+	list-style: none;
+    float: left;    
+    position: relative;
+    background-color: #ededed;
+}
+.nav li a {
+	width: 117px;
+	height: 34px;
+	display: inline-block;
+	color: #fff;
+    font-size: 14.67px;
+    text-align: center;
+    line-height: 34px;
+    text-decoration: none;
+}
+.nav li img {
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+}
+.nav li:nth-child(1):hover {
+	background-color: #20a2f0;
+}
+.nav li:nth-child(2):hover  {
+	background-color: #24aa98;
+}
+.nav li:nth-child(3):hover  {
+	background-color: #990099;
+}
+.nav li:nth-child(4):hover  {
+	background-color: #cc3333;
+}
+.nav li:nth-child(5):hover  {
+	background-color: #91c50f;
+}
+.nav li:nth-child(6):hover  {
+	background-color: #fb9b00;
+}
+.nav li:nth-child(7):hover  {
+	background-color: #875728;
+}
+/*nav end*/
+.news {
+	padding: 10px;
+}
+.news-t a {
+    text-decoration: none;
+    font-size: 12px;
+    color: #000;
+}
+.news-m {
+	height: 36px;
+	font-size: 14.67px;
+	line-height: 36px;
+	margin-top: 10px;
+
+}
+.news-b {
+	margin-top: 20px;
+}
+.news-b-l {
+	float: left;
+	width: 434px;
+	margin-right: 10px;
+}
+.news-b-l p {
+	font-size: 12px;
+	text-indent: 2em;
+	line-height: 19px;
+	margin-bottom: 10px;
+}
+.news-b-r {
+	float: left;
+}
+.dashed {
+	width: 100%;
+	height: 0.5px;
+	border: dashed 0.5px  #999;
+}
+.main-right {
+	float: right;
+	height: 640px;
+	width: 268px;
+	background-color: #f6f6f6;
+}
+.route,
+.lookup,
+.delay,
+.purchaes,
+.lost {
+	width: 240px;
+	margin: 0 auto;
+	margin-top: 10px;
+	border-radius: 5px;
+	overflow: hidden;
+	font-size: 13.33px;
+	line-height: 26px;
+	color: #fff;
+	border: 1px solid #ccc;
+}
+.route {
+	height: 160px;
+}
+.all-t {
+	height: 26px;
+	background-color: #20a2f0;
+	padding-left: 10px;
+	position: relative;
+	cursor: pointer;
+}
+.all-t img {
+	position: absolute;
+	right: 10px;
+	top: 10px;
+}
+.route-b img {
+	width: auto;
+	height: auto;
+}
+.lookup {
+	height: 64px;
+}
+.lookup-b {
+	color: black;
+	padding-top: 5px;
+}
+.lookup-b img {
+	margin-left: 10px;
+	margin-right: 5px;
+}
+.purchaes {
+	height: 200px;
+}
+.purchaes-b {
+	color: black;
+	font-size: 12px;
+	line-height: 18px;
+	padding: 10px;
+
+}
+.delay {
+	height: 80px;
+}
+.lost {
+	height: 64px;
+}
+.delay-b {
+	color: black;
+	font-size: 12px;
+	line-height: 16px;
+	padding: 6px;
+}
+/*main end
+
+/*footer 部分*/
+footer {
+	height: 88px;
+	background-color: #ededed;
+	margin-top: 15px;
+	font-size: 12px;
+	color: #000;
+}
+.footer-l {
+	float: left;
+	width: 360px;
+	padding: 30px;
+	height: 22px;
+}
+.footer-r {
+	float: left;
+	width: 500px;
+	padding: 30px;
+	overflow: hidden;
+	height: 22px;
+
+}
+/*滚动条*/
+.scroll {
+	width: 50px;
+	height: 50px;
+	position: fixed;
+	right: 80px;
+	bottom: 100px;
+	background: #ededed url(../images/gundongtiao.png) no-repeat center;
+}
+.scroll a {
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+}
